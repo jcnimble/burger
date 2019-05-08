@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jcnimble/burger#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "mysql": "^2.17.1"
