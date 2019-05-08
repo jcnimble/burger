@@ -15,7 +15,12 @@ color:red;
 text-align: center;
 }
 
+h3 {
+  color:white;
+  }
+
 li {
+    list-style: none;
     padding: 5px;
     margin: 5px;
   }
@@ -31,16 +36,15 @@ li {
 #toEat {
   background: red;
   padding-bottom: 20px;
+  margin-right: 10px;
 }
 
 #done {
   float: left;
   background: blue;
   padding-bottom: 20px;
+  margin-left: 10px;
 }
-
-
-
 
 #addBurg {
   padding:20px;
@@ -49,3 +53,4 @@ li {
   margin-bottom: 10px;
   border-radius: 15px;
 }
+
