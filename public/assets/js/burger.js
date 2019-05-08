@@ -2,10 +2,9 @@
 $(function() {
     $(".change-devour").on("click", function(event) {
       var id = $(this).data("id");
-      var newDevour = $(this).data("newdevour");
-  
+     
       var newBurgerState = {
-        devour: newDevour
+        devoured: true
       };
   
       // Send the PUT request.
@@ -14,7 +13,7 @@ $(function() {
         data: newBurgerState
       }).then(
         function() {
-          console.log("changed devour to", newDevour);
+          console.log("changed devour to true");
           // Reload the page to get the updated list
           location.reload();
         }
@@ -26,9 +25,8 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#ca").val().trim(),
-        sleepy: $("[name=devour]:checked").val().trim()
-      };
+        burger_name: $("#bn").val().trim(),
+       };
   
       // Send the POST request.
       $.ajax("/api/burgers", {
