@@ -5,12 +5,12 @@ Burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
 * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
 
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+* Each burger in the waiting area also has a `Let's eat!` button. When the user clicks it, the burger will move to the right side of the page.
 
 * Your app will store every burger in a database, whether devoured or not -- I did add delete button because it just made sense to have it as an option.  Although, that may be over thinking a "Burger logger"
 
 ![](burgersrcnshot.png)
-I added this because Buzz helped me figure this out why screenshots weren't showing in my README
+I added this screenshot because Buzz helped me figure this out why screenshots weren't showing in my README for the last couple assigments.
 
 ## Getting Started
 
