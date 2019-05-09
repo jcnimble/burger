@@ -10,7 +10,7 @@ Burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 * Your app will store every burger in a database, whether devoured or not -- I did add delete button because it just made sense to have it as an option.  Although, that may be over thinking a "Burger logger"
 
 ![](burgersrcnshot.png)
-I added this screenshot because Buzz helped me figure this out why screenshots weren't showing in my README for the last couple assigments.
+I added this screenshot because Buzz helped me figure out why screenshots weren't showing in my README for the last couple assigments -- Voilà!
 
 ## Getting Started
 
