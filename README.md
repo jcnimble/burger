@@ -35,7 +35,7 @@ This app requires the MySQL, Express, Handlebars and   npm packages :
 Check it out on Heroku: https://blooming-ocean-27728.herokuapp.com/
 
 ### Issues
-This project was largely sucessful due to the Cat App Activty.  It was the starter code for me -- I then adapted to the specific requirements of the Burger app. I did keep the delete fuctionality that was introduced in the cat activity. But, only when a Burger was in the "devoured" category.  I would have played with the CSS more, but need to put my energy into our next project.  It was a little tricky moving from file to file to access different sections, but I got the hang of it. I like Handlebars -- although three files for one html page seems complicated.
+This project was largely successful due to the Cat App Activty.  It was the starter code for me -- I then adapted to the specific requirements of the Burger app. I did keep the delete fuctionality that was introduced in the cat activity. But, only when a Burger was in the "devoured/Eaten" category.  I would have played with the CSS more, but need to put my energy into our next project.  It was a little tricky moving from file to file to access different sections, but I got the hang of it. I like Handlebars -- although three files for one html page seems complicated.
 
 Uploading to heroku was a hassle, but lucklily I had it set up so I could use this as an example in our class activity. And was able to deploy it with help from Bryan and Buzz.
 
